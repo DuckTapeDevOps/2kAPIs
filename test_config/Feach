@@ -1,0 +1,9 @@
+{
+    "Avatar": "Feach23",
+    "Position": "PG",
+    "TimeStamp": 1672265692, //epoch time https://www.epochconverter.com/
+    "HaveTeam" : true,
+    "AmRepresentative" : true,
+    "TeamRepresenting" : "KillaBees",
+    "Role" : "Head Coach"
+}

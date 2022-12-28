@@ -1,9 +1,5 @@
 #!/usr/bin/python
 
-import definitions
-import nonpareil
-import nonpareil
-
 import time
 from pprint import pprint
 from flask import Flask, jsonify
@@ -41,12 +37,9 @@ def health():
 def root():
     return "Hello World (Python)! (up %s)\n" % elapsed()
 
-@app.route('/HelloWorld.nic')
-def helloWorld():
-    lines = ["#Definition : #HelloWorld = #Hello #World"]
-    # with open("./nic_files/HelloWorld.nic") as file:
-    #     lines = file.readlines()
-    nonpareil.load(lines)
+@app.route('/SignUp10s')
+def SignUp10s():
+    return "You're Signed Up for 10s!"
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=8080)

@@ -1,0 +1,9 @@
+{
+    "Avatar": "xBilbroDabbins",
+    "Position": "Backend",
+    "TimeStamp": 1672266000, //epoch time https://www.epochconverter.com/
+    "HaveTeam" : false,
+    "AmRepresentative" : false,
+    "TeamRepresenting" : "NA",
+    "Role": "Prospect"
+}
