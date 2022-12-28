@@ -1,0 +1,9 @@
+{
+    "Avatar": "NonpareilNic",
+    "Position": "C",
+    "TimeStamp": 1672266922, //epoch time https://www.epochconverter.com/
+    "HaveTeam" : false,
+    "AmRepresentative" : false,
+    "TeamRepresenting" : "NA",
+    "Role": "Free Agent"
+}
